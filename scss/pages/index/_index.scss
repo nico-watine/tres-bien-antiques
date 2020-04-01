@@ -1,0 +1,5 @@
+.row.row-of-5 {
+	.img-column {
+		@include grid-column(1 of 5, 0);
+	}
+}

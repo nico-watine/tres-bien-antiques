@@ -8718,3 +8718,14 @@ a:not(.button) {
 
 .min-width-25 {
   min-width: 25%; }
+
+.row.row-of-5 .img-column {
+  width: 20%;
+  float: left;
+  padding-right: 0;
+  padding-left: 0; }
+  .row.row-of-5 .img-column, .row.row-of-5 .img-column:last-child:not(:first-child) {
+    float: left;
+    clear: none; }
+  .row.row-of-5 .img-column:last-child:not(:first-child) {
+    float: right; }
