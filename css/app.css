@@ -355,7 +355,7 @@ a {
 
 hr {
   clear: both;
-  max-width: 75rem;
+  max-width: 90rem;
   height: 0;
   margin: 1.25rem auto;
   border-top: 0;
@@ -545,7 +545,7 @@ ul.no-bullet, ol.no-bullet {
 .grid-container {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  max-width: 75rem;
+  max-width: 90rem;
   margin-left: auto;
   margin-right: auto; }
   @media print, screen and (min-width: 40em) {
@@ -2234,7 +2234,7 @@ ul.no-bullet, ol.no-bullet {
     height: calc(100vh + 2rem); } }
 
 .row {
-  max-width: 75rem;
+  max-width: 90rem;
   margin-right: auto;
   margin-left: auto; }
   .row::before, .row::after {
@@ -5097,21 +5097,21 @@ html.is-reveal-open {
   @media print, screen and (min-width: 40em) {
     .reveal {
       width: 600px;
-      max-width: 75rem; } }
+      max-width: 90rem; } }
   .reveal.collapse {
     padding: 0; }
   @media print, screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
-      max-width: 75rem; } }
+      max-width: 90rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
-      max-width: 75rem; } }
+      max-width: 90rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
-      max-width: 75rem; } }
+      max-width: 90rem; } }
   .reveal.full {
     top: 0;
     right: 0;
