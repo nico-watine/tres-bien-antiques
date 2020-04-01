@@ -1,0 +1,74 @@
+
+# Autoprefixer will make sure your CSS works with these browsers
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 9"
+  - "Android >= 2.3"
+  - "ios >= 7"
+
+# UnCSS will use these settings
+UNCSS_OPTIONS:
+  html:
+    - "dist/**/*.{html,php,htm}"
+  ignore:
+    - !!js/regexp .foundation-mq
+    - !!js/regexp ^\.is-.*
+
+# Gulp will reference these paths when it copies files
+PATHS:
+  # Path to dist folder
+  dist: "dist"
+  # Paths to static assets that aren't images, CSS, or JavaScript
+  assets:
+    - "assets/.htaccess" # <- specify import invisible file .htaccess
+    - "assets/**" # <- import all files inside assets/
+  # Paths to Sass libraries, which can then be loaded with @import
+  sass:
+    - "bower_components/foundation-sites/scss"
+    - "bower_components/motion-ui/src"
+  # Paths to JavaScript libraries, which are compined into one file
+  javascript:
+    # Libraries requried by Foundation
+    # - "bower_components/jquery/dist/jquery.js" # <- alternatively utilize Google jQuery CDN
+    - "bower_components/what-input/dist/what-input.js"
+
+    # Core Foundation files
+    - "bower_components/foundation-sites/dist/js/plugins/foundation.core.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.*.js"
+
+    # Individual util files
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.box.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.imageLoader.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.keyboard.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.motion.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.nest.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.timer.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.touch.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.triggers.js"
+
+    # Individual Foundation components
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.abide.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.accordion.js" # keyboard
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.accordionMenu.js" # keyboard / nest
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.drilldown.js" # box / keyboard / nest
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.dropdown.js" # box / keyboard / triggers
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js" # box / keyboard / nest
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.equalizer.js" # imageLoader / mediaQuery
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.interchange.js" # mediaQuery
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.smoothScroll.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.magellan.js" # smoothScroll
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.offcanvas.js" # keyboard / mediaQuery / triggers
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.orbit.js" # imageLoader / keyboard / motion / timer / touch
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.js" # accordion / motion / tabs
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js" # mediaQuery / triggers
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js" # mediaQuery / motion
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.reveal.js" # keyboard / mediaQuery / motion / triggers
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.slider.js" # keyboard / motion / touch / triggers
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.sticky.js" # mediaQuery / triggers
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.tabs.js" # imageLoader / keyboard
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.toggler.js" # motion / triggers
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.tooltip.js" # box / mediaQuery / triggers
+
+    # Main JS file (imports everything above)
+    - "js/app-min.js"

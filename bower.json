@@ -1,0 +1,17 @@
+{
+  "name": "tres-bien-antiques",
+  "author": [
+    "Nico Watine <nico@studioncreations.com> (https://nicowatine.me/)"
+  ],
+  "description": "Website for Très Bien Antiques in Houston, TX. Site built on zurb-f6-boilerplate.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "foundation-sites": "6.5.3",
+    "motion-ui": "2.0.3"
+  }
+}
