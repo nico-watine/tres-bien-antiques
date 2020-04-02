@@ -7,12 +7,36 @@
 	background: #fff url('/img/index/splash/index-splash_large.jpg') center/cover no-repeat;
 	text-align: center;
 
-	.headline {
-		font-weight: 600;
-		font-size: rem-calc(70);
-		color: #fff;
-		letter-spacing: rem-calc(4.67);
+	.text-block {
+		max-width: rem-calc(970);
+	}
+
+	.headline,
+	.subhead {
+		// color: #fff;
 		text-shadow: 0 0 20px rgba(0,0,0,.85);
-		text-transform: uppercase;
+		// text-transform: uppercase;
+	}
+
+	.headline {
+		// font-weight: 600;
+		font-size: rem-calc(70);
+		letter-spacing: rem-calc(4.67);
+		line-height: 1.2;
+		margin-bottom: rem-calc(24);
+		// color: #fff;
+		// text-shadow: 0 0 20px rgba(0,0,0,.85);
+		// text-transform: uppercase;
+
+	}
+
+	.subhead {
+		// font-weight: 700;
+		font-size: rem-calc(28);
+		letter-spacing: rem-calc(1.87);
+		line-height: 1.6;
+		// color: #fff;
+		// text-transform: uppercase;
+		// text-shadow: 0 0 20px rgba(0,0,0,.85);
 	}
 }
