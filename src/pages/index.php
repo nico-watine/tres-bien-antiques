@@ -9,11 +9,7 @@ body-id: index
 body-class: index
 ---
 <section class="index-splash" style="margin-bottom: 80px;">
-	<div class="row expanded collapse">
-		<div class="column text-center">
-			<img style="width: 100%;" src="/img/index/splash/index-splash_large.jpg" alt="">
-		</div>
-	</div>
+	<h1>Très Bien Antiques</h1>
 </section>
 <section class="photo-gallery" style="margin-bottom: 120px;">
 	<div class="row row-of-5">

@@ -8719,6 +8719,14 @@ a:not(.button) {
 .min-width-25 {
   min-width: 25%; }
 
+.index-splash {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff url("/img/index/splash/index-splash_large.jpg") center/cover no-repeat; }
+
 .photo-gallery img {
   border: 4px solid #fff; }
 
