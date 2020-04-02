@@ -6155,6 +6155,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/dist": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/dist",
+		"oF": 0
+		},
 	"/gulpfile.babel.js": {
 		"bF": 0,
 		"ft": 64,
@@ -6760,6 +6766,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/css/_index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/pages/index/_splash.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/css/_splash.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
