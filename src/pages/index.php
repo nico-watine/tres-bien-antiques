@@ -9,7 +9,7 @@ body-id: index
 body-class: index
 ---
 <section class="index-splash" style="margin-bottom: 80px;">
-	<h1>Très Bien Antiques</h1>
+	<h1 class="headline">Très Bien Antiques</h1>
 </section>
 <section class="photo-gallery" style="margin-bottom: 120px;">
 	<div class="row row-of-5">

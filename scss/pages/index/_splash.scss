@@ -5,4 +5,14 @@
 	align-items: center;
 	justify-content: center;
 	background: #fff url('/img/index/splash/index-splash_large.jpg') center/cover no-repeat;
+	text-align: center;
+
+	.headline {
+		font-weight: 600;
+		font-size: rem-calc(70);
+		color: #fff;
+		letter-spacing: rem-calc(4.67);
+		text-shadow: 0 0 20px rgba(0,0,0,.85);
+		text-transform: uppercase;
+	}
 }

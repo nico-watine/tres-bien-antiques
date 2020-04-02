@@ -8725,7 +8725,15 @@ a:not(.button) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #fff url("/img/index/splash/index-splash_large.jpg") center/cover no-repeat; }
+  background: #fff url("/img/index/splash/index-splash_large.jpg") center/cover no-repeat;
+  text-align: center; }
+  .index-splash .headline {
+    font-weight: 600;
+    font-size: 4.375rem;
+    color: #fff;
+    letter-spacing: 0.291875rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.85);
+    text-transform: uppercase; }
 
 .photo-gallery img {
   border: 4px solid #fff; }
