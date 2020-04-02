@@ -8731,13 +8731,17 @@ a:not(.button) {
     max-width: 60.625rem; }
   .index-splash .headline,
   .index-splash .subhead {
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.85); }
+    color: #fff;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.85);
+    text-transform: uppercase; }
   .index-splash .headline {
+    font-weight: 600;
     font-size: 4.375rem;
     letter-spacing: 0.291875rem;
     line-height: 1.2;
     margin-bottom: 1.5rem; }
   .index-splash .subhead {
+    font-weight: 700;
     font-size: 1.75rem;
     letter-spacing: 0.116875rem;
     line-height: 1.6; }

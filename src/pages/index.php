@@ -10,8 +10,8 @@ body-class: index
 ---
 <section class="index-splash" style="margin-bottom: 80px;">
 	<div class="text-block">
-		<h1 class="headline font-weight-600 text-white text-uppercase">Très Bien Antiques</h1>
-		<h2 class="subhead font-weight-700 text-white text-uppercase">Direct importer and Curator of French and European Antiques in Houston, Texas</h2>
+		<h1 class="headline">Très Bien Antiques</h1>
+		<h2 class="subhead">Direct importer and Curator of French and European Antiques in Houston, Texas</h2>
 	</div>
 </section>
 <section class="photo-gallery" style="margin-bottom: 120px;">
