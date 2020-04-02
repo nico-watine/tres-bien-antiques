@@ -6155,12 +6155,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/dist",
-		"oF": 0
-		},
 	"/gulpfile.babel.js": {
 		"bF": 0,
 		"ft": 64,
@@ -6277,6 +6271,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/img/galleries/4x3/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/index/splash/index-splash_large.jpg": {
+		"ft": 16384,
+		"iS": 69055,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/index/splash/index-splash_large.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
