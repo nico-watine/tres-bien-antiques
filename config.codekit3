@@ -6282,6 +6282,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/index/bio/betsy-austin.jpg": {
+		"ft": 16384,
+		"iS": 66812,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/index/bio/betsy-austin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/index/bio/betsy-austin_2x.jpg": {
+		"ft": 16384,
+		"iS": 77385,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/index/bio/betsy-austin_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/index/splash/index-splash_large.jpg": {
 		"ft": 16384,
 		"iS": 69055,
