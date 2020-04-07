@@ -1,0 +1,36 @@
+.index-splash {
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #fff url('/img/index/splash/index-splash_large.jpg') center/cover no-repeat;
+	text-align: center;
+
+	.text-block {
+		max-width: rem-calc(970);
+	}
+
+	.headline,
+	.subhead {
+		color: #fff;
+		text-shadow: 0 0 20px rgba(0,0,0,.85);
+		text-transform: uppercase;
+	}
+
+	.headline {
+		font-weight: 600;
+		font-size: rem-calc(70);
+		letter-spacing: rem-calc(4.67);
+		line-height: 1.2;
+		margin-bottom: rem-calc(24);
+
+	}
+
+	.subhead {
+		font-weight: 700;
+		font-size: rem-calc(28);
+		letter-spacing: rem-calc(1.87);
+		line-height: 1.6;
+	}
+}
