@@ -56,3 +56,6 @@ body-class: index
 		<div class="medium-4 columns"><img src="/img/galleries/3x4/3.jpg" alt=""></div>
 	</div>
 </section>
+<footer class="footer text-center" style="padding-top: 40px; padding-bottom: 40px; background-image: linear-gradient(225deg, #D2E1F7 0%, rgba(184,202,229,0.80) 100%);">
+	<h4 class="font-weight-semibold" style="line-height: 1; margin: 0; font-size: 18px;">&copy;TrèsBienAntiques 2020</h4>
+</footer>
