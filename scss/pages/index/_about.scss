@@ -3,6 +3,10 @@
 
 	.prose-column {
 		margin-bottom: rem-calc(40);
+
+		@include breakpoint(medium) {
+			margin-bottom: 0;
+		}
 	}
 
 	.img-column {
