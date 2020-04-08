@@ -8715,7 +8715,7 @@ a:not(.button) {
   .index-splash .headline,
   .index-splash .subhead {
     color: #fff;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.85);
+    text-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.85);
     text-transform: uppercase; }
   .index-splash .headline {
     font-weight: 600;
