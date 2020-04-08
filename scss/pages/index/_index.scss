@@ -9,9 +9,16 @@
 
 .row-of-5 {
 	.img-column {
-		@include grid-column(1 of 5, 0);
+		@include breakpoint(medium) {
+			@include grid-column(1 of 4, 0);
+		}
+
+		@include breakpoint(large) {
+			@include grid-column(1 of 5, 0);
+		}
 	}
 }
+
 
 a.instagram-link span {
 	display: inline-block;
