@@ -16,7 +16,7 @@ body-class: index
 </section>
 <section class="about-section">
 	<div class="row" style="max-width: 1200px;">
-		<div class="medium-8 large-7 columns prose-column">
+		<div class="medium-8 large-push-5 large-7 columns prose-column">
 			<img class="mb-4" src="/img/logo/tres-bien-antiques-logo.svg" alt="Tres Bien Antiques logo" title="Tres Bien Antiques logo">
 			<h2 class="font-weight-semibold" style="margin-bottom: 32px; letter-spacing: -1px;font-size: 45px;">About Très&nbsp;Bien Antiques</h2>
 			<p style="letter-spacing: -0.2px;">When my grandparents immigrated from France, they brought the French and European culture with them. Growing up in a home filled with European antiques, I eventually found my passion.</p>
@@ -24,7 +24,7 @@ body-class: index
 			<p style="letter-spacing: -0.2px;">Come see me in Roundtop, Texas, at the Marburger Farms Antique show. If you can't make it, visit me in Houston at Memorial Antiques and Interiors! I am also available to meet in my warehouse by appointment.</p>
 			<p class="font-weight-semibold" style="font-size: 20px; letter-spacing: -0.2px;">– Betsy Austin</p>
 		</div>
-		<div class="medium-4 large-5 columns img-column">
+		<div class="medium-4 large-pull-7 large-5 columns img-column">
 			<img src="/img/index/about/betsy-austin.jpg" alt="Betsy Austin" title="Betsy Austin" class="box-shadow-1 border-radius-10">
 			<h4 class="quote font-weight-semibold" style="font-size: 20px;letter-spacing: -0.2px;line-height: 24px;margin: 0 auto; max-width: 350px;">"The future belongs to those who believe in the beauty of your dreams." <br><br>
 			<span class="float-right">-Eleanor Roosevelt</span></h4>
