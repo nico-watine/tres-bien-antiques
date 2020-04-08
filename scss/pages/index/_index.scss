@@ -7,9 +7,11 @@
 	}
 }
 
-.row-of-5 {
-	.img-column {
-		@include grid-column(1 of 5, 0);
+.medium-row-of-5 {
+	@include breakpoint(medium) {
+		.img-column {
+			@include grid-column(1 of 5, 0);
+		}
 	}
 }
 
