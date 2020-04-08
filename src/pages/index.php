@@ -44,9 +44,11 @@ body-class: index
 		<div class="medium-6 columns"><img src="/img/galleries/4x3/2.jpg" alt=""></div>
 	</div>
 </section>
-<section class="instagram-banner-section" style="padding-top: 60px; padding-bottom: 60px;background-image: linear-gradient(225deg, #D2E1F7 0%, rgba(184,202,229,0.80) 100%);">
+<section class="text-center instagram-banner-section display-flex align-middle" style="height:260px;background-image: linear-gradient(225deg, #D2E1F7 0%, rgba(184,202,229,0.80) 100%);">
 	<div class="row">
-
+		<div class="column text-center">
+			<h3>@tresbienantiques</h3>
+		</div>
 	</div>
 </section>
 <section class="photo-gallery">
