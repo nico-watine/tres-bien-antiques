@@ -18,9 +18,8 @@ body-class: index
 	<div class="row">
 		<div class="large-5 columns">
 			<img src="/img/index/about/betsy-austin.jpg" alt="Betsy Austin" title="Betsy Austin" class="box-shadow-1 border-radius-10 mb-24">
-			<div class="prose-wrap">
-				<h4 class="quote" style="margin: 0 auto; max-width: 350px;"></h4>
-			</div>
+			<h4 class="quote font-weight-semibold" style="font-size: 20px;letter-spacing: -0.2px;line-height: 24px;margin: 0 auto; max-width: 350px;">"The future belongs to those who believe in the beauty of your dreams." <br><br>
+			-Eleanor Roosevelt</h4>
 		</div>
 	</div>
 </section>
