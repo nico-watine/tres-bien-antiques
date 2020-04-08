@@ -8761,15 +8761,27 @@ a:not(.button) {
   border: 4px solid #fff; }
 
 @media print, screen and (min-width: 40em) {
-  .medium-row-of-5 .img-column {
+  .row-of-5 .img-column {
+    width: 25%;
+    float: left;
+    padding-right: 0;
+    padding-left: 0; }
+    .row-of-5 .img-column, .row-of-5 .img-column:last-child:not(:first-child) {
+      float: left;
+      clear: none; }
+    .row-of-5 .img-column:last-child:not(:first-child) {
+      float: right; } }
+
+@media print, screen and (min-width: 64em) {
+  .row-of-5 .img-column {
     width: 20%;
     float: left;
     padding-right: 0;
     padding-left: 0; }
-    .medium-row-of-5 .img-column, .medium-row-of-5 .img-column:last-child:not(:first-child) {
+    .row-of-5 .img-column, .row-of-5 .img-column:last-child:not(:first-child) {
       float: left;
       clear: none; }
-    .medium-row-of-5 .img-column:last-child:not(:first-child) {
+    .row-of-5 .img-column:last-child:not(:first-child) {
       float: right; } }
 
 a.instagram-link span {
