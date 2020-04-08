@@ -6282,6 +6282,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/index/about/betsy-austin.jpg": {
+		"ft": 16384,
+		"iS": 66812,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/index/about/betsy-austin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/index/about/betsy-austin_2x.jpg": {
+		"ft": 16384,
+		"iS": 77385,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/index/about/betsy-austin_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/index/splash/index-splash_large.jpg": {
 		"ft": 16384,
 		"iS": 69055,
@@ -6292,6 +6314,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/img/logo/tres-bien-antiques-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/logo/tres-bien-antiques-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/js/app-min.js": {
 		"bF": 0,
@@ -6753,6 +6785,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_pages.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/pages/index/_about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/css/_about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
