@@ -52,9 +52,9 @@ body-class: index
 		<div class="medium-6 columns"><img src="/img/galleries/4x3/2.jpg" alt=""></div>
 	</div>
 </section>
-<section class="text-center instagram-banner-section display-flex align-middle" style="height:260px;background-image: linear-gradient(225deg, #D2E1F7 0%, rgba(184,202,229,0.80) 100%);">
+<section class="text-center instagram-banner-section display-flex align-middle" style="">
 	<div class="row width-100 overflow-hidden">
-		<a href="https://www.instagram.com/tresbienantiques/" class="instagram-link font-weight-semibold width-100" style="max-width: 980px;font-size: 38px;color: #A8986C;letter-spacing: -1px;"><span><img src="/img/social-media/instagram-logo.svg" style="margin-right: 20px;" alt="@tresbienantiques" title="@tresbienantiques">@tresbienantiques</span></a>
+		<a href="https://www.instagram.com/tresbienantiques/" class="instagram-link font-weight-semibold width-100"><span><img src="/img/social-media/instagram-logo.svg" alt="@tresbienantiques" title="@tresbienantiques">@tresbienantiques</span></a>
 	</div>
 </section>
 <section class="photo-gallery">

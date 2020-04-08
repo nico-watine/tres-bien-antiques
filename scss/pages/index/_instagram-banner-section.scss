@@ -1,0 +1,56 @@
+.instagram-banner-section {
+	height: 260px;
+	background-image: linear-gradient(225deg, #d2e1f7 0%, rgba(184,202,229,.80) 100%);
+}
+
+a.instagram-link {
+	max-width: rem-calc(980);
+	color: #a8986c;
+	letter-spacing: rem-calc(-1);
+	font-size: rem-calc(28);
+
+	img {
+		display: block;
+		margin: 0 auto rem-calc(16);
+	}
+}
+
+@include breakpoint(medium) {
+	a.instagram-link {
+		font-size: rem-calc(38);
+
+		img {
+			display: inline;
+			margin-right: rem-calc(20);
+		}
+	}
+
+	a.instagram-link span {
+		display: inline-block;
+		position: relative;
+		padding-left: 40px;
+		padding-right: 40px;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	a.instagram-link span:before,
+	a.instagram-link span:after {
+		content: '';
+		position: absolute;
+		border-bottom: 4px solid #a8986c;
+		max-width: 200px;
+		width: 100%;
+		top: 50%;
+	}
+
+	a.instagram-link span:before {
+		right: 100%;
+	}
+
+	a.instagram-link span:after {
+		left: 100%;
+	}
+}
