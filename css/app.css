@@ -8742,3 +8742,26 @@ a:not(.button) {
     clear: none; }
   .row-of-5 .img-column:last-child:not(:first-child) {
     float: right; }
+
+a.instagram-link span {
+  display: inline-block;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 40px; }
+  a.instagram-link span:hover {
+    text-decoration: underline; }
+
+a.instagram-link span:before,
+a.instagram-link span:after {
+  content: '';
+  position: absolute;
+  border-bottom: 4px solid #a8986c;
+  max-width: 200px;
+  width: 100%;
+  top: 50%; }
+
+a.instagram-link span:before {
+  right: 100%; }
+
+a.instagram-link span:after {
+  left: 100%; }
