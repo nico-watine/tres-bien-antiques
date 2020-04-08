@@ -17,7 +17,9 @@ body-class: index
 <section class="about-section">
 	<div class="row" style="max-width: 1200px;">
 		<div class="medium-8 large-push-5 large-7 columns prose-column">
-			<img class="mb-4" src="/img/logo/tres-bien-antiques-logo.svg" alt="Tres Bien Antiques logo" title="Tres Bien Antiques logo">
+			<div class="text-center medium-text-left">
+				<img class="mb-16" src="/img/logo/tres-bien-antiques-logo.svg" alt="Tres Bien Antiques logo" title="Tres Bien Antiques logo">
+			</div>
 			<div class="h-wrap">
 				<h2 class="font-weight-semibold" style="margin-bottom: 32px; letter-spacing: -1px;font-size: 45px;">About Très&nbsp;Bien Antiques</h2>
 			</div>
