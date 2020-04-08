@@ -14,23 +14,43 @@
 	.headline,
 	.subhead {
 		color: #fff;
-		text-shadow: 0 0 20px rgba(0,0,0,.85);
+		text-shadow: 0 0 rem-calc(20) rgba(0,0,0,.85);
 		text-transform: uppercase;
 	}
 
 	.headline {
 		font-weight: 600;
-		font-size: rem-calc(70);
-		letter-spacing: rem-calc(4.67);
 		line-height: 1.2;
 		margin-bottom: rem-calc(24);
+		letter-spacing: rem-calc(3);
+		font-size: rem-calc(46);
 
+		@include breakpoint(440) {
+			font-size: rem-calc(60);
+			letter-spacing: rem-calc(4);
+		}
+
+		@include breakpoint(medium) {
+			font-size: rem-calc(70);
+			letter-spacing: rem-calc(4.67);
+		}
 	}
 
 	.subhead {
 		font-weight: 700;
-		font-size: rem-calc(28);
-		letter-spacing: rem-calc(1.87);
 		line-height: 1.6;
+		font-size: rem-calc(20);
+		letter-spacing: rem-calc(1.2);
+		max-width: rem-calc(480);
+		margin: 0 auto;
+
+		@include breakpoint(medium) {
+			font-size: rem-calc(28);
+			letter-spacing: rem-calc(1.87);
+		}
+
+		@include breakpoint(900) {
+			max-width: none;
+		}
 	}
 }

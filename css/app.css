@@ -8715,20 +8715,36 @@ a:not(.button) {
   .index-splash .headline,
   .index-splash .subhead {
     color: #fff;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.85);
+    text-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.85);
     text-transform: uppercase; }
   .index-splash .headline {
     font-weight: 600;
-    font-size: 4.375rem;
-    letter-spacing: 0.291875rem;
     line-height: 1.2;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1875rem;
+    font-size: 2.875rem; }
+    @media screen and (min-width: 27.5em) {
+      .index-splash .headline {
+        font-size: 3.75rem;
+        letter-spacing: 0.25rem; } }
+    @media print, screen and (min-width: 40em) {
+      .index-splash .headline {
+        font-size: 4.375rem;
+        letter-spacing: 0.291875rem; } }
   .index-splash .subhead {
     font-weight: 700;
-    font-size: 1.75rem;
-    letter-spacing: 0.116875rem;
-    line-height: 1.6; }
-
+    line-height: 1.6;
+    font-size: 1.25rem;
+    letter-spacing: 0.075rem;
+    max-width: 30rem;
+    margin: 0 auto; }
+    @media print, screen and (min-width: 40em) {
+      .index-splash .subhead {
+        font-size: 1.75rem;
+        letter-spacing: 0.116875rem; } }
+    @media screen and (min-width: 56.25em) {
+      .index-splash .subhead {
+        max-width: none; } }
 .about-section {
   margin-bottom: 5rem; }
   .about-section .prose-column {
