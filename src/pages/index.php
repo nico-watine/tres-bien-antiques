@@ -15,7 +15,7 @@ body-class: index
 	</div>
 </section>
 <section class="about-section" style="margin-bottom: 80px;">
-	<div class="row">
+	<div class="row" style="max-width: 1200px;">
 		<div class="large-5 columns" style="padding-top: 80px;">
 			<img src="/img/index/about/betsy-austin.jpg" alt="Betsy Austin" title="Betsy Austin" class="box-shadow-1 border-radius-10 mb-24">
 			<h4 class="quote font-weight-semibold" style="font-size: 20px;letter-spacing: -0.2px;line-height: 24px;margin: 0 auto; max-width: 350px;">"The future belongs to those who believe in the beauty of your dreams." <br><br>
