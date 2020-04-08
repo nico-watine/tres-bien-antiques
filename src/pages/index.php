@@ -32,7 +32,7 @@ body-class: index
 		</div>
 		<div class="medium-4 large-pull-7 large-5 columns img-column">
 			<div class="text-center">
-				<img src="/img/index/about/betsy-austin.jpg" alt="Betsy Austin" title="Betsy Austin" class="box-shadow-1 border-radius-10">
+				<img srcset="/img/index/about/betsy-austin_2x.jpg 2x" src="/img/index/about/betsy-austin.jpg" alt="Betsy Austin" title="Betsy Austin" class="box-shadow-1 border-radius-10">
 			</div>
 			<h4 class="quote font-weight-semibold" style="font-size: 20px;letter-spacing: -0.2px;line-height: 24px;margin: 0 auto; max-width: 350px;">"The future belongs to those who believe in the beauty of your dreams." <br><br>
 			<span class="float-right">-Eleanor Roosevelt</span></h4>
