@@ -45,10 +45,8 @@ body-class: index
 	</div>
 </section>
 <section class="text-center instagram-banner-section display-flex align-middle" style="height:260px;background-image: linear-gradient(225deg, #D2E1F7 0%, rgba(184,202,229,0.80) 100%);">
-	<div class="row">
-		<div class="column text-center">
-			<a href="https://www.instagram.com/tresbienantiques/" class="font-weight-semibold" style="font-size: 38px;color: #A8986C;letter-spacing: -1px;"><img src="/img/social-media/instagram-logo.svg" style="margin-right: 20px;" alt="@tresbienantiques" title="@tresbienantiques">@tresbienantiques</a>
-		</div>
+	<div class="row width-100">
+		<a href="https://www.instagram.com/tresbienantiques/" class="font-weight-semibold overflow-hidden display-inline-block width-100" style="max-width: 980px;font-size: 38px;color: #A8986C;letter-spacing: -1px;"><img src="/img/social-media/instagram-logo.svg" style="margin-right: 20px;" alt="@tresbienantiques" title="@tresbienantiques">@tresbienantiques</a>
 	</div>
 </section>
 <section class="photo-gallery">
