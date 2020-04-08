@@ -11,7 +11,7 @@ body-class: index
 <section class="index-splash" style="margin-bottom: 80px;">
 	<div class="text-block">
 		<h1 class="headline">Très Bien Antiques</h1>
-		<h2 class="subhead">Direct importer and Curator of French and European Antiques in Houston, Texas</h2>
+		<h2 class="subhead">Direct importer and Curator of French and European Antiques in Houston,&nbsp;Texas</h2>
 	</div>
 </section>
 <section class="about-section">
