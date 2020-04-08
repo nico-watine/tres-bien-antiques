@@ -1,0 +1,17 @@
+.about-section {
+	margin-bottom: rem-calc(80);
+
+	.prose-column {
+		margin-bottom: rem-calc(40);
+	}
+
+	.img-column {
+		img {
+			margin-bottom: rem-calc(24);
+		}
+
+		@include breakpoint(medium) {
+			padding-top: rem-calc(80);
+		}
+	}
+}
