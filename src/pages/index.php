@@ -31,7 +31,7 @@ body-class: index
 		</div>
 	</div>
 </section>
-<section class="photo-gallery" style="margin-bottom: 120px;">
+<section class="photo-gallery">
 	<div class="row row-of-5">
 		<div class="img-column"><img src="/img/galleries/1x1/1.jpg" alt=""></div>
 		<div class="img-column"><img src="/img/galleries/1x1/2.jpg" alt=""></div>
@@ -42,6 +42,11 @@ body-class: index
 	<div class="row collapse">
 		<div class="medium-6 columns"><img src="/img/galleries/4x3/1.jpg" alt=""></div>
 		<div class="medium-6 columns"><img src="/img/galleries/4x3/2.jpg" alt=""></div>
+	</div>
+</section>
+<section class="instagram-banner-section" style="padding-top: 60px; padding-bottom: 60px;background-image: linear-gradient(225deg, #D2E1F7 0%, rgba(184,202,229,0.80) 100%);">
+	<div class="row">
+
 	</div>
 </section>
 <section class="photo-gallery">
