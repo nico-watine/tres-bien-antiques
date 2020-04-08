@@ -47,8 +47,7 @@ body-class: index
 <section class="text-center instagram-banner-section display-flex align-middle" style="height:260px;background-image: linear-gradient(225deg, #D2E1F7 0%, rgba(184,202,229,0.80) 100%);">
 	<div class="row">
 		<div class="column text-center">
-			<img src="/img/social-media/instagram-logo.svg" style="margin-right: 20px;" alt="@tresbienantiques" title="@tresbienantiques">
-			<a href="https://www.instagram.com/tresbienantiques/" class="font-weight-semibold" style="font-size: 38px;color: #A8986C;letter-spacing: -1px;">@tresbienantiques</a>
+			<a href="https://www.instagram.com/tresbienantiques/" class="font-weight-semibold" style="font-size: 38px;color: #A8986C;letter-spacing: -1px;"><img src="/img/social-media/instagram-logo.svg" style="margin-right: 20px;" alt="@tresbienantiques" title="@tresbienantiques">@tresbienantiques</a>
 		</div>
 	</div>
 </section>
