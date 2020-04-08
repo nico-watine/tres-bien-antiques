@@ -6,6 +6,29 @@
 
 		@include breakpoint(medium) {
 			margin-bottom: 0;
+			padding-left: rem-calc(24);
+		}
+
+		@include breakpoint(large) {
+			padding-left: 0;
+		}
+
+		.h-wrap {
+			text-align: center;
+
+			@include breakpoint(medium) {
+				text-align: left;
+			}
+		}
+
+		.p-wrap {
+			max-width: rem-calc(440);
+			width: 100%;
+			margin: 0 auto;
+
+			@include breakpoint(medium) {
+				max-width: none;
+			}
 		}
 	}
 

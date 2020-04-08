@@ -8735,7 +8735,23 @@ a:not(.button) {
     margin-bottom: 2.5rem; }
     @media print, screen and (min-width: 40em) {
       .about-section .prose-column {
-        margin-bottom: 0; } }
+        margin-bottom: 0;
+        padding-left: 1.5rem; } }
+    @media print, screen and (min-width: 64em) {
+      .about-section .prose-column {
+        padding-left: 0; } }
+    .about-section .prose-column .h-wrap {
+      text-align: center; }
+      @media print, screen and (min-width: 40em) {
+        .about-section .prose-column .h-wrap {
+          text-align: left; } }
+    .about-section .prose-column .p-wrap {
+      max-width: 27.5rem;
+      width: 100%;
+      margin: 0 auto; }
+      @media print, screen and (min-width: 40em) {
+        .about-section .prose-column .p-wrap {
+          max-width: none; } }
   .about-section .img-column img {
     margin-bottom: 1.5rem; }
   @media print, screen and (min-width: 40em) {
