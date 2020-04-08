@@ -48,7 +48,7 @@ body-class: index
 	<div class="row">
 		<div class="column text-center">
 			<img src="/img/social-media/instagram-logo.svg" style="margin-right: 20px;" alt="@tresbienantiques" title="@tresbienantiques">
-			<h3 class="display-inline m-0">@tresbienantiques</h3>
+			<h3 class="display-inline m-0 font-weight-semibold" style="font-size: 38px;color: #A8986C;letter-spacing: -1px;">@tresbienantiques</h3>
 		</div>
 	</div>
 </section>
