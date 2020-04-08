@@ -8733,6 +8733,9 @@ a:not(.button) {
   margin-bottom: 5rem; }
   .about-section .prose-column {
     margin-bottom: 2.5rem; }
+    @media print, screen and (min-width: 40em) {
+      .about-section .prose-column {
+        margin-bottom: 0; } }
   .about-section .img-column img {
     margin-bottom: 1.5rem; }
   @media print, screen and (min-width: 40em) {
