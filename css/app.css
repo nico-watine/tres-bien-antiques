@@ -7872,7 +7872,12 @@ footer.footer {
   padding-bottom: 2.5rem;
   background-image: linear-gradient(225deg, #d2e1f7 0%, rgba(184, 202, 229, 0.8) 100%); }
   footer.footer .h4.copyright {
-    font-size: 1.125rem; }
+    font-size: 1.3125rem; }
+  footer.footer a.snc-colophon {
+    text-decoration: none;
+    letter-spacing: 0.0625rem; }
+    footer.footer a.snc-colophon:hover {
+      text-decoration: underline; }
 
 .ff-spartan {
   font-family: 'Spartan', sans-serif; }

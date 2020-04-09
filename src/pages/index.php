@@ -66,4 +66,5 @@ body-class: index
 </section>
 <footer class="footer text-center">
 	<h4 class="h4 copyright font-weight-semibold mb-20">&copy;TrèsBienAntiques 2020</h4>
+	<a href="https://studioncreations.com" class="h6 snc-colophon text-uppercase">A <span class="text-underline">Studio N</span> Creation</a>
 </footer>
