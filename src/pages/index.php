@@ -65,5 +65,5 @@ body-class: index
 	</div>
 </section>
 <footer class="footer text-center">
-	<h4 class="font-weight-semibold" style="line-height: 1; margin: 0; font-size: 18px;">&copy;TrèsBienAntiques 2020</h4>
+	<h4 class="h4 copyright font-weight-semibold mb-20">&copy;TrèsBienAntiques 2020</h4>
 </footer>

@@ -7868,9 +7868,11 @@ ol.list-upper-roman {
   animation-delay: 700ms !important; }
 
 footer.footer {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   background-image: linear-gradient(225deg, #d2e1f7 0%, rgba(184, 202, 229, 0.8) 100%); }
+  footer.footer .h4.copyright {
+    font-size: 1.125rem; }
 
 .ff-spartan {
   font-family: 'Spartan', sans-serif; }
