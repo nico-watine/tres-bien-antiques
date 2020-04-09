@@ -6260,6 +6260,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/galleries/3x4/4.jpg": {
+		"ft": 16384,
+		"iS": 131448,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/galleries/3x4/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/galleries/4x3/1.jpg": {
 		"ft": 16384,
 		"iS": 166632,
@@ -6483,6 +6494,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_elements.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/_page-blocks.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_page-blocks.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
