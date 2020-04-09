@@ -59,7 +59,7 @@ body-class: index
 </section>
 <section class="photo-gallery">
 	<div class="row collapse">
-		<div class="medium-4 columns"><img src="/img/galleries/3x4/1.jpg" alt=""></div>
+		<div class="medium-4 columns"><img src="/img/galleries/3x4/4.jpg" alt=""></div>
 		<div class="medium-4 columns"><img src="/img/galleries/3x4/2.jpg" alt=""></div>
 		<div class="medium-4 columns"><img src="/img/galleries/3x4/3.jpg" alt=""></div>
 	</div>
