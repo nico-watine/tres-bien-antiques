@@ -7874,6 +7874,7 @@ footer.footer {
   footer.footer .h4.copyright {
     font-size: 1.3125rem; }
   footer.footer a.snc-colophon {
+    font-size: 0.75rem;
     text-decoration: none;
     letter-spacing: 0.0625rem; }
     footer.footer a.snc-colophon:hover {
