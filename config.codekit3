@@ -49,6 +49,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 1
     },
+    "\/.yarnclean" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.yarnclean",
+      "oF" : 0
+    },
     "\/assets" : {
       "ft" : 65536,
       "oA" : 1,
@@ -6724,14 +6732,6 @@
       "oAP" : "\/node_modules",
       "oF" : 0
     },
-    "\/package-lock.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-lock-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
     "\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -7341,6 +7341,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/TODO",
+      "oF" : 0
+    },
+    "\/yarn.lock" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/yarn.lock",
       "oF" : 0
     }
   },
