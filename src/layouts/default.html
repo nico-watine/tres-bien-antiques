@@ -9,14 +9,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>{{ title }}</title>
 	<meta name="description" content="{{ description }}">
-	<link href="https://tb-antiques.com{{ url }}" rel="canonical">
+	<link href="{{ tld-url }}{{ url }}" rel="canonical">
 	<link href="/humans.txt" rel="author">
+
+	{{> head-favicon-tags}}
+
+	{{> head-pwa-tags}}
+
+	{{> head-open-graph-tags}}
+
+	{{> head-misc-tags}}
+
+	{{> head-domain-verification-tags}}
 
 	<link href="{{ cdn }}<?php autoVer('/css/app.css'); ?>" rel="stylesheet">
 
 </head>
 <body id="{{ body-id }}" class="{{ body-class }}">
 
+{{> google-analytics}}
 
 
 {{> body}}
@@ -27,7 +38,7 @@
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery/3-4-1/jquery-min.js"><\/script>')</script>
 <script src="{{ cdn }}<?php autoVer('/js/app-min.js'); ?>"></script>
 
-{{> scripts-tag}}
+{{> misc-scripts-tag}}
 
 </body>
 </html>
