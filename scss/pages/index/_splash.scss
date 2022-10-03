@@ -1,5 +1,6 @@
 .index-splash {
 	height: 95vh;
+	min-height: rem-calc(500);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -9,6 +10,7 @@
 
 	.text-block {
 		max-width: rem-calc(970);
+		padding-top: rem-calc(40);
 	}
 
 	.headline,
@@ -51,6 +53,28 @@
 
 		@include breakpoint(900) {
 			max-width: none;
+		}
+	}
+
+	.button-wrap {
+		padding: 1rem;
+		text-align: center;
+
+		a.button {
+			padding: rem-calc(20 24 16);
+			line-height: 1.5;
+			color: #fff;
+			font-weight: bold;
+			text-transform: uppercase;
+			font-size: rem-calc(16);
+			border-radius: 5000px !important;
+			background: transparent;
+			border: 3px solid #fff;
+
+			&:hover {
+				background: #fff;
+				color: #000;
+			}
 		}
 	}
 }
