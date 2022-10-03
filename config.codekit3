@@ -6667,6 +6667,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/index\/catalog-link\/catalog-banner-link-bg.jpg" : {
+      "ft" : 16384,
+      "iS" : 109884,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/img\/index\/catalog-link\/catalog-banner-link-bg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/index\/splash\/index-splash_large.jpg" : {
       "ft" : 16384,
       "iS" : 69055,
