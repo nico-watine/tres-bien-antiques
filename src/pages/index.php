@@ -12,6 +12,9 @@ body-class: index
 	<div class="text-block">
 		<h1 class="headline">Très Bien Antiques</h1>
 		<h2 class="subhead">Direct importer and Curator of French and European Antiques in Houston,&nbsp;Texas</h2>
+		<div class="button-wrap">
+			<a href="https://shop.tb-antiques.com/" class="button">Browse Online Catalog</a>
+		</div>
 	</div>
 </section>
 <section class="about-section">
@@ -37,6 +40,14 @@ body-class: index
 			<h4 class="quote font-weight-semibold" style="font-size: 20px;letter-spacing: -0.2px;line-height: 24px;margin: 0 auto; max-width: 350px;">"The future belongs to those who believe in the beauty of your dreams." <br><br>
 			<span class="float-right">-Eleanor Roosevelt</span></h4>
 		</div>
+	</div>
+</section>
+<section class="text-center catalog-link-banner-section display-flex">
+	<div class="row">
+		<div class="prose-wrap mb-40 px-16">
+			<h3 class="font-weight-semibold">Our inventory is now browsable online! For an overview of current and incoming stock, please visit our online catalog.</h3>
+		</div>
+		<a href="https://shop.tb-antiques.com/" class="button catalog-link-button">Browse Online Catalog</a>
 	</div>
 </section>
 <section class="photo-gallery">
@@ -65,6 +76,6 @@ body-class: index
 	</div>
 </section>
 <footer class="footer text-center">
-	<h4 class="h4 copyright font-weight-semibold mb-20">&copy;TrèsBienAntiques 2020</h4>
+	<h4 class="h4 copyright font-weight-semibold mb-20">&copy;TrèsBienAntiques 2022</h4>
 	<a href="https://studioncreations.com" class="h6 snc-colophon text-uppercase">A <span class="text-underline">Studio N</span> Creation</a>
 </footer>
