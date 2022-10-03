@@ -8864,10 +8864,12 @@ a.catalog-link-button {
   font-size: 1.3125rem;
   border-radius: 5000px !important;
   background: transparent;
-  border: 3px solid #fff; }
+  border: 3px solid #fff;
+  text-shadow: 0 0 0.625rem #000; }
   a.catalog-link-button:hover {
     background: #fff;
-    color: #000; }
+    color: #000;
+    text-shadow: none; }
 
 .photo-gallery img {
   border: 4px solid #fff; }
