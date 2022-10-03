@@ -1,0 +1,25 @@
+.catalog-link-banner-section {
+	padding: 40px 0;
+	background-image: linear-gradient(225deg, #d2e1f7 0%, rgba(184,202,229,.80) 100%);
+
+	.prose-wrap {
+		max-width: 680px;
+	}
+}
+
+a.catalog-link-button {
+	padding: rem-calc(20 24 16);
+	line-height: 1.5;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: rem-calc(21);
+	border-radius: 5000px !important;
+	background: transparent;
+	border: 3px solid #fff;
+
+	&:hover {
+		background: #fff;
+		color: #000;
+	}
+}
