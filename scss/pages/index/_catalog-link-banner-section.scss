@@ -1,0 +1,32 @@
+.catalog-link-banner-section {
+	padding: rem-calc(40) 0;
+	background: #a9a9a9 url('/img/index/catalog-link/catalog-banner-link-bg.jpg') center/cover no-repeat;
+	background-blend-mode: multiply;
+	margin-bottom: rem-calc(80);
+
+	.prose-wrap {
+		max-width: 680px;
+
+		h3 {
+			color: #fff;
+			text-shadow: 0 0 rem-calc(10) #000;
+		}
+	}
+}
+
+a.catalog-link-button {
+	padding: rem-calc(20 24 16);
+	line-height: 1.5;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: rem-calc(21);
+	border-radius: 5000px !important;
+	background: transparent;
+	border: 3px solid #fff;
+
+	&:hover {
+		background: #fff;
+		color: #000;
+	}
+}

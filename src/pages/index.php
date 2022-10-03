@@ -42,6 +42,14 @@ body-class: index
 		</div>
 	</div>
 </section>
+<section class="text-center catalog-link-banner-section display-flex">
+	<div class="row">
+		<div class="prose-wrap mb-40 px-16">
+			<h3 class="font-weight-semibold">Our inventory is now browsable online! For an overview of current and incoming stock, please visit our online catalog.</h3>
+		</div>
+		<a href="https://shop.tb-antiques.com/" class="button catalog-link-button">Browse Online Catalog</a>
+	</div>
+</section>
 <section class="photo-gallery">
 	<div class="row row-of-5">
 		<div class="img-column"><img src="/img/galleries/1x1/1.jpg" alt=""></div>

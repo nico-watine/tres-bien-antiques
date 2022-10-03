@@ -8844,6 +8844,31 @@ a.instagram-link {
   a.instagram-link span:after {
     left: 100%; } }
 
+.catalog-link-banner-section {
+  padding: 2.5rem 0;
+  background: #a9a9a9 url("/img/index/catalog-link/catalog-banner-link-bg.jpg") center/cover no-repeat;
+  background-blend-mode: multiply;
+  margin-bottom: 5rem; }
+  .catalog-link-banner-section .prose-wrap {
+    max-width: 680px; }
+    .catalog-link-banner-section .prose-wrap h3 {
+      color: #fff;
+      text-shadow: 0 0 0.625rem #000; }
+
+a.catalog-link-button {
+  padding: 1.25rem 1.5rem 1rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.3125rem;
+  border-radius: 5000px !important;
+  background: transparent;
+  border: 3px solid #fff; }
+  a.catalog-link-button:hover {
+    background: #fff;
+    color: #000; }
+
 .photo-gallery img {
   border: 4px solid #fff; }
 
