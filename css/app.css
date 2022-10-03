@@ -8717,6 +8717,7 @@ a:not(.button) {
 
 .index-splash {
   height: 95vh;
+  min-height: 31.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8724,7 +8725,8 @@ a:not(.button) {
   background: #fff url("/img/index/splash/index-splash_large.jpg") center/cover no-repeat;
   text-align: center; }
   .index-splash .text-block {
-    max-width: 60.625rem; }
+    max-width: 60.625rem;
+    padding-top: 2.5rem; }
   .index-splash .headline,
   .index-splash .subhead {
     color: #fff;
