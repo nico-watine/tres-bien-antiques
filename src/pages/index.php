@@ -42,8 +42,8 @@ body-class: index
 		</div>
 	</div>
 </section>
-<section class="text-center catalog-link-banner-section display-flex align-middle">
-	<div class="row overflow-hidden">
+<section class="text-center catalog-link-banner-section display-flex">
+	<div class="row">
 		<div class="prose-wrap mb-40 px-16">
 			<h3 class="font-weight-semibold">Our inventory is now browsable online! For an overview of current and incoming stock, please visit our online catalog.</h3>
 		</div>
