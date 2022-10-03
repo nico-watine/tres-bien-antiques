@@ -8763,7 +8763,7 @@ a:not(.button) {
     text-align: center; }
     .index-splash .button-wrap a.button {
       padding: 1.25rem 1.5rem 1rem;
-      line-height: 1;
+      line-height: 1.5;
       color: #fff;
       font-weight: bold;
       text-transform: uppercase;
