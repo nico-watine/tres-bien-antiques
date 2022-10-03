@@ -8845,9 +8845,10 @@ a.instagram-link {
     left: 100%; } }
 
 .catalog-link-banner-section {
-  padding: 40px 0;
+  padding: 2.5rem 0;
   background: #a9a9a9 url("/img/index/catalog-link/catalog-banner-link-bg.jpg") center/cover no-repeat;
-  background-blend-mode: multiply; }
+  background-blend-mode: multiply;
+  margin-bottom: 5rem; }
   .catalog-link-banner-section .prose-wrap {
     max-width: 680px; }
     .catalog-link-banner-section .prose-wrap h3 {

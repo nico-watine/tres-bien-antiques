@@ -1,7 +1,8 @@
 .catalog-link-banner-section {
-	padding: 40px 0;
+	padding: rem-calc(40) 0;
 	background: #a9a9a9 url('/img/index/catalog-link/catalog-banner-link-bg.jpg') center/cover no-repeat;
 	background-blend-mode: multiply;
+	margin-bottom: rem-calc(80);
 
 	.prose-wrap {
 		max-width: 680px;
