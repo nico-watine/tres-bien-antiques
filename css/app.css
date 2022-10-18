@@ -8905,4 +8905,6 @@ a.catalog-link-button {
     background: rgba(225, 225, 225, 0.85);
     border-radius: 20px;
     background-blend-mode: screen;
-    padding: 1.25rem 0.625rem; }
+    padding: 1.25rem 0.625rem;
+    max-width: 460px;
+    margin: 0 auto 40px; }
