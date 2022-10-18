@@ -8915,3 +8915,5 @@ a.catalog-link-button {
     @media print, screen and (min-width: 40em) {
       .location-banner .locationCard {
         min-height: 13.75rem; } }
+    .location-banner .locationCard p {
+      letter-spacing: -0.0125rem; }

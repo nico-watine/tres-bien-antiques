@@ -19,5 +19,9 @@
 		@include breakpoint(medium) {
 			min-height: rem-calc(220);
 		}
+
+		p {
+			letter-spacing: rem-calc(-.2);
+		}
 	}
 }
