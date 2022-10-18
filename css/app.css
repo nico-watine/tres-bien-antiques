@@ -8871,6 +8871,26 @@ a.catalog-link-button {
     color: #000;
     text-shadow: none; }
 
+.location-banner {
+  background: #8a8a8a url("/img/galleries/4x3/2.jpg") center/cover no-repeat;
+  background-blend-mode: multiply;
+  padding: 2.5rem 0; }
+  .location-banner .section-headline-row {
+    margin-bottom: 2.5rem;
+    text-shadow: 0 0 0.625rem #000; }
+  .location-banner .locationCard {
+    background: rgba(225, 225, 225, 0.85);
+    border-radius: 1.25rem;
+    background-blend-mode: screen;
+    padding: 1.25rem 0.625rem;
+    max-width: 28.75rem;
+    margin: 0 auto 2.5rem; }
+    @media print, screen and (min-width: 40em) {
+      .location-banner .locationCard {
+        min-height: 13.75rem; } }
+    .location-banner .locationCard p {
+      letter-spacing: -0.0125rem; }
+
 .photo-gallery img {
   border: 4px solid #fff; }
 
