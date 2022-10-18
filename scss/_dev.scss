@@ -1,4 +1,11 @@
 .location-banner {
-	background: #8A8A8A url('/img/index/catalog-link/catalog-banner-link-bg.jpg') center/cover no-repeat;
+	background: #8a8a8a url('/img/index/catalog-link/catalog-banner-link-bg.jpg') center/cover no-repeat;
 	background-blend-mode: multiply;
+
+	.locationCard {
+		background: rgba(225,225,225,.85);
+		border-radius: 20px;
+		background-blend-mode: screen;
+		padding: rem-calc(20 10);
+	}
 }
