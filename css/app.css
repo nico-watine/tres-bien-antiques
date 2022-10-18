@@ -8897,3 +8897,7 @@ a.catalog-link-button {
       clear: none; }
     .row-of-5 .img-column:last-child:not(:first-child) {
       float: right; } }
+
+.location-banner {
+  background: #8A8A8A url("/img/index/catalog-link/catalog-banner-link-bg.jpg") center/cover no-repeat;
+  background-blend-mode: multiply; }
