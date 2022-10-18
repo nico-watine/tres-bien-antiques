@@ -8901,6 +8901,11 @@ a.catalog-link-button {
 .location-banner {
   background: #8a8a8a url("/img/index/catalog-link/catalog-banner-link-bg.jpg") center/cover no-repeat;
   background-blend-mode: multiply; }
+  .location-banner .section-headline-row {
+    margin-bottom: 40px; }
+    @media print, screen and (min-width: 40em) {
+      .location-banner .section-headline-row {
+        margin-bottom: 64px; } }
   .location-banner .locationCard {
     background: rgba(225, 225, 225, 0.85);
     border-radius: 20px;
