@@ -1,0 +1,27 @@
+.location-banner {
+	background: #8a8a8a url('/img/galleries/4x3/2.jpg') center/cover no-repeat;
+	background-blend-mode: multiply;
+	padding: rem-calc(40 0);
+
+	.section-headline-row {
+		margin-bottom: rem-calc(40);
+		text-shadow: 0 0 rem-calc(10) #000;
+	}
+
+	.locationCard {
+		background: rgba(225,225,225,.85);
+		border-radius: rem-calc(20);
+		background-blend-mode: screen;
+		padding: rem-calc(20 10);
+		max-width: rem-calc(460);
+		margin: 0 auto rem-calc(40);
+
+		@include breakpoint(medium) {
+			min-height: rem-calc(220);
+		}
+
+		p {
+			letter-spacing: rem-calc(-.2);
+		}
+	}
+}
