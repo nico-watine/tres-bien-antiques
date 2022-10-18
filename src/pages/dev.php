@@ -18,7 +18,7 @@ body-class:
 			<div class="locationCard text-center">
 				<h4 class="font-weight-bold">MAI</h4>
 				<p style="letter-spacing: -0.2px;">Memorial Antiques & Interiors</p>
-				<p style="letter-spacing: -0.2px;"><a href="https://g.page/MAIHouston">Design Center <br>
+				<p class="font-weight-600" style="letter-spacing: -0.2px;"><a href="https://g.page/MAIHouston">Design Center <br>
 				7026 Old Katy Rd #166 <br>
 				Houston, TX 77024</a></p>
 			</div>
