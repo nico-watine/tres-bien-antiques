@@ -25,7 +25,7 @@ body-class:
 		</div>
 		<div class="medium-4 columns">
 			<div class="locationCard text-center">
-				<h4 class="font-weight-bold">MAI</h4>
+				<h4 class="font-weight-bold">Marburger Farm Antique&nbsp;Show (Tent&nbsp;F)</h4>
 				<p style="letter-spacing: -0.2px;">Memorial Antiques & Interiors</p>
 				<p class="font-weight-600" style="letter-spacing: -0.2px;"><a href="https://g.page/MAIHouston">Design Center <br>
 				7026 Old Katy Rd #166 <br>
