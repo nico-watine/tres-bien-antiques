@@ -4,17 +4,17 @@
 	padding: rem-calc(40 0);
 
 	.section-headline-row {
-		margin-bottom: 40px;
-		text-shadow: 0 0 10px #000;
+		margin-bottom: rem-calc(40);
+		text-shadow: 0 0 rem-calc(10) #000;
 	}
 
 	.locationCard {
 		background: rgba(225,225,225,.85);
-		border-radius: 20px;
+		border-radius: rem-calc(20);
 		background-blend-mode: screen;
 		padding: rem-calc(20 10);
-		max-width: 460px;
-		margin: 0 auto 40px;
+		max-width: rem-calc(460);
+		margin: 0 auto rem-calc(40);
 
 		@include breakpoint(medium) {
 			min-height: rem-calc(220);
