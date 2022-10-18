@@ -1,14 +1,11 @@
 .location-banner {
 	background: #8a8a8a url('/img/index/catalog-link/catalog-banner-link-bg.jpg') center/cover no-repeat;
 	background-blend-mode: multiply;
+	padding: rem-calc(40 0);
 
 	.section-headline-row {
 		margin-bottom: 40px;
 		text-shadow: 0 0 10px #000;
-
-		@include breakpoint(medium) {
-			margin-bottom: 64px;
-		}
 	}
 
 	.locationCard {
@@ -18,5 +15,9 @@
 		padding: rem-calc(20 10);
 		max-width: 460px;
 		margin: 0 auto 40px;
+
+		@include breakpoint(medium) {
+			min-height: rem-calc(220);
+		}
 	}
 }
